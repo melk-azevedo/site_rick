@@ -5,34 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: black;
-        }
-
-        h1 {
-            text-align: center;
-            color: white;
-        }
-
-        p {
-            text-align: center;
-            color: aqua;
-        }
-    </style>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Página de Login</title>
 </head>
 
 
 <body>
-    <h1>PROJETO INICIAL PARA CRIAÇÃO DO SITE</h1>
-    <p>Esse site será desenvolvido utilizando o framework Flask.</p>
+    <header>
+        <h1>PROJETO INICIAL PARA CRIAÇÃO DO SITE</h1>
+        <p>Esse site será desenvolvido utilizando o framework Flask.</p>
+        <a href="contatos.html">Contatos</a>
+    </header>
+    <main>
+        <form>
+            <label for="">Usuário</label>
+            <input type="text" class="boxTxt" value="">
+            <label for="">Senha</label>
+            <input type="password" class="boxTxt" value="">
+            <input type="button" class="btnEnviar" value="Login">
+        </form>
+    </main>
 </body>
 
 
