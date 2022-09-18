@@ -10,6 +10,11 @@ def homepage():
     return render_template('homepage.html')
 
 
+@app.rout('/contatos')
+def contatos():
+    return render_template('contatos.html')
+
+
 # Colocar o site no ar
 if __name__ == '__main__':
     app.run(debug=True)
