@@ -5,9 +5,14 @@ app = Flask(__name__)
 
 # Route -> Diretório
 # Função -> é o que será exibido na page
-@app.route('/homepage')
+@app.route('/')
 def homepage():
     return render_template('homepage.html')
+
+
+@app.route('/login')
+def login():
+    return render_template('login.html')
 
 
 @app.route('/contatos')
