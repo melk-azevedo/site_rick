@@ -10,7 +10,7 @@ def homepage():
     return render_template('homepage.html')
 
 
-@app.rout('/contatos')
+@app.route('/contatos')
 def contatos():
     return render_template('contatos.html')
 
