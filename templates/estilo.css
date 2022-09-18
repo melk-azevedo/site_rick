@@ -1,17 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
-}
-
-a {
-    text-decoration: none;
-    color: red;
-}
-
-* {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -27,4 +16,15 @@ h1 {
 p {
     text-align: center;
     color: aqua;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: red;
 }

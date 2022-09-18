@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Route -> Diretório
 # Função -> é o que será exibido na page
-@app.route('/')
+@app.route('/homepage')
 def homepage():
     return render_template('homepage.html')
 
