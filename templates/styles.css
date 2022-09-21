@@ -39,7 +39,7 @@ h1 {
     height: 5076px;
     background-size: 100%;
     animation: 120s infiniteScroll linear infinite;
-    background-repeat: repeat;
+    background-repeat-x: repeat;
     background-image: url(https://cdn2.hubspot.net/hubfs/53/Pricing%202017%20Assets/marketing/Header_Circles-1.svg);
 }
 
